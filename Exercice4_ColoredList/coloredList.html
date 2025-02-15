@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored List</title>
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <style>
+        li{
+            padding: 10px;
+            margin: 10px;
+            border: black 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-center"> Colored List</h1>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+        <li>Five</li>
+    </ol>
+
+    <script>
+        let L= document.querySelector("ol");
+        L.addEventListener('click', function(e){
+              if(e.target.tagName === 'LI'){
+                e.target.style.backgroundColor = '#'+Math.floor(Math.random()*16777215).toString(16);
+              }
+        }); 
+    </script>
+</body>
+</html>
