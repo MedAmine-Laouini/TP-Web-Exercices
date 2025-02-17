@@ -1,0 +1,9 @@
+{
+    "rewrites": [
+      { "source": "/Exercice1_Nombre_caché", "destination": "/Exercice1_Nombre_caché/nombre_cache_jeux.html" },
+      { "source": "/Exercice2_MiniWord", "destination": "/Exercice2_MiniWord/MiniWord.html" },
+      { "source": "/Exercice3_ToDo", "destination": "/Exercice3_ToDo/ToDo.html" },
+      { "source": "/Exercice4_ColoredList", "destination": "/Exercice4_ColoredList/coloredListx.html" }
+    ]
+  }
+  
